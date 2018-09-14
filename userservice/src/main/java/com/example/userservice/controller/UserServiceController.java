@@ -20,6 +20,7 @@ public class UserServiceController {
 	
 	@RequestMapping("/listusers")
 	public List<User> getAllUsers(){
+		System.out.println("Getting all the available users..");
 		return userServiceDao.getAllUsers();
 	}
 	
