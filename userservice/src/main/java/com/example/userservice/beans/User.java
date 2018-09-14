@@ -34,6 +34,7 @@ public class User {
 	}
 	
 	public String toString(){
+		System.out.println("Invoking toString method");
 		StringBuilder builder = new StringBuilder();		
 		builder.append("First Name : "+firstName);
 		builder.append("Last Name : "+firstName);
